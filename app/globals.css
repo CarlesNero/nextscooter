@@ -17,17 +17,14 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #a0c7c4;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.class {
+  font-family: var(--font-poppins);
 }
